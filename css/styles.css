@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     overflow-x: hidden;
+  }
+
+  body{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      font-family: 'Dancing Script', 'Roboto', sans-serif;
+  }
+
+    
+
+
+/* Este es el top, tamaño y background*/
+
+#top{
+        height: 20px;
+        width: 1024px;
+        background-color: black ;
+        position: relative;
+ 
+
+}
+
+/*css para grandes ofertas del top*/
+
+
+#top .Grandes-ofertas {
+                color: white;
+                font-size: 10px;
+                line-height: 11,72px;
+                font-weight: 400;
+                position: absolute;
+                left: 90px;
+                top: 4px;
+                text-decoration: none;
+                z-index: 10;
+
+}
+
+/*css para español del top*/
+
+ #top .idioma .li-idioma{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    left: 882px;
+    top: 4px;
+    border: solid 1px #f3f3f3;
+}
+
+/*css para arg$ en el top*/
+
+#top .moneda .ul-moneda .li-moneda {
+    color: #f3f3f3;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11,72px;
+    text-decoration: none;
+    position: absolute;
+    Width: 26px;
+height: 12px;
+top: 4px;
+left: 938px;
+
+
+}
+
+/*menu */
+
+header #menu-logo {
+    width: 1024px;
+    height: 62px;
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+header #menu-logo #menu .ul-menu {
+   display: flex;
+   width: 343px;
+
+
+}
+   
+    
+header #menu-logo #menu .ul-menu .li-menu a{
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 15px;
+    margin: 3px;
+}
+
+/*position menu y logo*/
+
+
+
+header #menu-logo #logo {
+    
+    left: 40px;
+    top: 59px;
+}
+
+
+/*sobre el menu*/
+/*img principal con titulo subtitulo y button*/
+
+
+/*tamaño del main*/
+
+
+#principal #imgtitsub .producdesc{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    display: block;
+    align-items: center;
+
+    
+}
+#principal #imgtitsub .producdesc .comederos{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #3C2313;
+}
+
+#principal #imgtitsub .placer{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight:400;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+
+            color: #3C2313;
+
+}
+
+#principal #imgtitsub #button{
+                width: 110px;
+                background-color: #F0A83E;
+                position:absolute;
+                top: 334px;
+                left: 767px;
+                color: #f3f3f3;
+                width: 110px;
+                height: 34px;
+                border-radius: 5px;
+}
+
+
+
+/*segunda parte del main*/
+
+
+#principal #productosdestacados .contmen .ccca a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 400;
+
+}
+#principal #productosdestacados .contmen .ccca{
+    position: absolute;
+    left:380px;
+    top:653px;
+}
+
+#principal #productosdestacados .contmen #productosdestaca{
+    color: #3C2313;
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: 700;
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 309px;
+    top: 586px;
+}
+
+#principal #productosdestacados .pata{
+    position: absolute;
+    top:510px;
+    left: 479px;
+    z-index: 10;
+}
+
+/*section imagenes*/
+
+#principal #productosdestacados #contentsec {
+    margin: 10px;
+    display: flex;
+    position: absolute;
+    width: 834px;
+    left: 95px;
+    top: 720px;
+
+
+
+}
+
+#principal #productosdestacados #contentsec section{
+    text-align: center;
+    background-color: #FBFAF6;
+}
+/*faltan acomodar cosas de las imagenes de arriba*/
+
+
+
+#contenform #formulario .titform{
+    display: inline-block;
+    position: absolute;
+    top: 1110px;
+    left: 448px;
+}
+
+
+
+#contenform #formulario .continput{
+    width: 340px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1110px;
+    left: 343px;
+
+}
+
+#contenform #formulario .continput .txt{
+    width: 340px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #3c2313;
+}
+#contenform #formulario #contbutton{
+    position: absolute;
+    top: 1328px;
+    left: 415px;
+    width: 250px;
+}
+
+#contenform #formulario #contbutton .resetear{
+    color: #f3f3f3;
+    background-color: #8A8787;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+}
+#contenform #formulario #contbutton .enviar{
+    color: #f3f3f3;
+    background-color: #F0A83E;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+}
+
+
+/*suscribete para mas novedades*/
+
+#contenform #suscripcion{
+    width: 1024px;
+    height: 60px;
+    position: absolute;
+    top: 1449px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenform #suscripcion .hhs .imghhs{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+
+/*falta terminar lo de arriba*/
+
+#footer{
+    width: 1024px;
+    height: 284px;
+    position: absolute;
+    top: 1506px;
+    display: inline-block;
+    background-color: #3c2313;
+}
+
+
+#footer #reffoot{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+}
+
+
+
+/*logotipo footer*/
+
+#footer .logotipo{
+  position: relative;
+  bottom: 100px;
+  left: 788px;
+
+}
